@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efb417be-d9fd-4749-baf6-80ed4d983f23" name="Changes" comment="update project configuration and add Dart tool files" />
+    <list default="true" id="efb417be-d9fd-4749-baf6-80ed4d983f23" name="Changes" comment="remove tests">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,12 +83,12 @@
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="ec41472b-b594-4a03-a3b5-eece63223378" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/VCONNCT-TECH/vcloud_flutter_sdk.git",
-    "accountId": "ec41472b-b594-4a03-a3b5-eece63223378"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/VCONNCT-TECH/vcloud_flutter_sdk.git&quot;,
+    &quot;accountId&quot;: &quot;ec41472b-b594-4a03-a3b5-eece63223378&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -99,6 +101,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Dart Test.Tests in qa_test_runner.dart.executor": "Run",
+    "Dart Test.Tests in vcloud_test.dart.executor": "Run",
     "Flutter.main.dart.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
@@ -119,10 +122,15 @@
       <recent name="$PROJECT_DIR$/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Flutter.main.dart">
+  <component name="RunManager" selected="Dart Test.Tests in vcloud_test.dart">
     <configuration name="Tests in qa_test_runner.dart" type="DartTestRunConfigurationType" factoryName="Dart Test" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/test/qa_test_cases/qa_test_runner.dart" />
       <option name="testName" value="qa_test_runner.dart" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in vcloud_test.dart" type="DartTestRunConfigurationType" factoryName="Dart Test" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/test/vcloud_test.dart" />
+      <option name="testName" value="vcloud_test" />
       <method v="2" />
     </configuration>
     <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
@@ -131,6 +139,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Dart Test.Tests in vcloud_test.dart" />
         <item itemvalue="Flutter.main.dart" />
         <item itemvalue="Dart Test.Tests in qa_test_runner.dart" />
       </list>
@@ -253,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750326454120</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="remove tests">
+      <option name="closed" value="true" />
+      <created>1750327052198</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1750327052198</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -280,6 +297,7 @@
     <MESSAGE value="Improve README.md formatting for better readability and clarity" />
     <MESSAGE value="update workspace.xml to enhance Git settings and recent branches configuration" />
     <MESSAGE value="update project configuration and add Dart tool files" />
-    <option name="LAST_COMMIT_MESSAGE" value="update project configuration and add Dart tool files" />
+    <MESSAGE value="remove tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove tests" />
   </component>
 </project>
